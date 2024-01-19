@@ -1,0 +1,105 @@
+@CHARSET "ISO-8859-1";
+
+/* General style */
+body
+{
+	background-color: #ebf2ff;
+	font-family: "Times", serif;
+	max-width: 1500px;
+	margin: auto;
+}
+
+h4
+{
+	color: blue;
+}
+
+table 
+{
+	border-spacing: 0;
+    border-collapse: collapse;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+tr
+{
+	border-spacing: 0;
+    border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+}
+
+td 
+{
+	border-spacing: 0;
+    border-collapse: collapse;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+form 
+{
+	line-height: 160%;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Header styles */
+#header
+{
+	background-color: white;
+	margin: 20px;
+    border-style: solid;
+    border-color: black;
+	padding: 10px;
+    text-align: center;
+}
+
+/* Container styles */
+#container
+{
+	display: flex;
+}
+
+
+/* Menu style */
+#menu 
+{
+	display: inline-block;
+	background-color: white;
+	margin: 20px;
+    border-style: solid;
+    border-color: black;
+	padding: 10px;
+	flex: 1;
+	line-height: 140%;
+	font-size: 110%;
+}
+
+/* Main content style */
+#content
+{
+    white-space: nowrap;
+	text-align: left;
+	display: inline-block;
+    background-color: white;
+	margin: 20px;
+    border-style: solid;
+    border-color: black;
+	padding: 10px;
+	flex: 3;
+}
+
+/* Footer style */
+#footer 
+{
+	text-align: center;
+	background-color: white;
+	margin: 20px;
+    border-style: solid;
+    border-color: black;
+	padding: 10px;
+}
